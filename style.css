@@ -36,6 +36,9 @@ body #first{
 }
 
 body #second{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
 }
 
 body #third{
@@ -50,11 +53,13 @@ body #forth{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
+/* first webpage*/
 .logo{
     margin-left: 1em;
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 3em;
     font-weight:bold;
     background-color: white;
@@ -73,18 +78,20 @@ body #forth{
 
 .rest{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
 }
 
 .rest .image{
     width: 55vw;
-    height: 90vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .rest .image img{
     width: 55vw;
-    height: 90vh;
+    height:90vh;
     object-fit: contain;
 }
 
@@ -95,6 +102,7 @@ body #forth{
     flex-direction: column;
     justify-content: center;
     padding: 5em;
+    margin-top: 5em;
 }
 
 .rest .title div{
@@ -116,3 +124,6 @@ body #forth{
     font-size: 1em;
     font-weight: bold;
 }
+
+
+/* second webpage*/
