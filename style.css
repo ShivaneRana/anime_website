@@ -7,6 +7,7 @@
 
 body{
     background-color: white;
+    margin: 0;
 }
 
 li{
@@ -16,22 +17,36 @@ li{
 a{
     text-decoration: none;
     color: black;
+    background-color: white;
+    padding: 1em;
 }
 
 .ora{
-    color: orange;
+    color:orange;
 }
 
-#first,#second,#third{
+#second,#third,#forth{
     height: 100vh;
     width: 100vw;
-    background-color: white;
+}
+
+body #first{
+    height: 100vh;
+    width: 100vw;
+}
+
+body #second{
+}
+
+body #third{
+}
+
+body #forth{
 }
 
 .header{
     width: 100vw;
     height: 10vh;
-    background-color:red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,10 +57,12 @@ a{
     margin-top: 1.5em;
     font-size: 3em;
     font-weight:bold;
+    background-color: white;
+    padding: 0.30em;
 }
+
 .container_links{
     margin-right: 5em;
-    background-color: green;
     width: 50vw;
     height: 5vh;
     display: flex;
@@ -57,29 +74,31 @@ a{
 .rest{
     width: 100vw;
     height: 90vh;
-    background-color: cadetblue;
     display: flex;
-
 }
 
 .rest .image{
     width: 55vw;
     height: 90vh;
-    background-image: url(./images/char.png);
-    background-size: cover;
+}
+
+.rest .image img{
+    width: 55vw;
+    height: 90vh;
+    object-fit: contain;
 }
 
 .rest .title{
     width: 45vw;
     height: 90vh;
-    background-color: gold;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 5em;
 }
 
 .rest .title div{
-    font-size: 4em;
+    font-size: 3em;
     font-weight: bold;
 }
 
@@ -87,5 +106,13 @@ a{
     color: orange;
 }
 .rest .title button{
-    
+    margin-top: 2em;
+    background-color: orange;
+    color: white;
+    border: none;
+    width: 10em;
+    height: 4em;
+    border-radius: 220px;
+    font-size: 1em;
+    font-weight: bold;
 }
