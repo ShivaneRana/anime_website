@@ -16,19 +16,19 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     padding: 1em;
     transition: background-color 0.35s,color 0.35s;
 }
 
 a:hover{
-    background-color: black;
-    color: white;
+    background-color: #e74c3c;
+    color: black;
 }
 
 .ora{
-    color:orange;
+    color:#e74c3c;
 }
 
 #first,#second,#third,#forth{
@@ -85,10 +85,6 @@ a:hover{
     object-fit: contain;
 }
 
-.rest .image img:hover{
-    background: transparent;
-}
-
 .rest .title{
     width: 45vw;
     height: 90vh;
@@ -105,11 +101,11 @@ a:hover{
 }
 
 .rest .title div span{
-    color: orange;
+    color: #e74c3c;
 }
 .rest .title button{
     margin-top: 2em;
-    background-color: orange;
+    background-color: #e74c3c;
     color: white;
     border: none;
     width: 10em;
@@ -184,6 +180,7 @@ body #third{
     font-size: 4em;
     align-self: center;
     text-decoration: underline;
+    margin-top: 10vh;
 }
 
 #third .third_rest{
@@ -232,44 +229,48 @@ body #forth{
     align-items: center;
 }
 
-.forth_rest{
+#forth .forth_rest{
     width: 70vw;
     height: 70vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    gap: 2em;
+    margin-top: 5vh;
 }
 
-.top{
-    height: 10vh;
+#forth .forth_rest .top{
+    align-self: center;
+}
+
+#forth .forth_rest .top p{
     font-size: 4em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-decoration: underline;
 }
 
-.bottom{
-    width: 70vw;
-    height: 60vh;
+#forth .forth_rest .bottom{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    gap:1em;
+}
+
+#forth .forth_rest .bottom p{
     font-size: 2em;
 }
 
-.bottom button{
-    margin-top: 1em;
-    align-self: center;
-    font-size: 1.3em;
+#forth .forth_rest .bottom button{
+    font-size: 1.5em;
     width: 10em;
-    color: white;
-    background-color: black;
+    height: 4em;
+    border-radius: 5em;
     border: none;
-    border-radius: 2em;
+    background-color: black;
+    color: white;
+    align-self: center;
 }
 
-.bottom button:hover{
+#forth .forth_rest .bottom button:hover{
+    background-color: #e74c3c;
     color: black;
-    background-color: orange;
 }
