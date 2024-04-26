@@ -227,7 +227,6 @@ body #third{
 
 
 body #forth{
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,13 +235,11 @@ body #forth{
 .forth_rest{
     width: 70vw;
     height: 70vh;
-    background-color: goldenrod;
     display:flex;
     flex-direction: column;
 }
 
 .top{
-    background-color: blue;
     height: 10vh;
     font-size: 4em;
     display: flex;
@@ -252,17 +249,27 @@ body #forth{
 }
 
 .bottom{
+    width: 70vw;
+    height: 60vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
 }
 
-.bottom .right{
-    width: 35vw;
-    height: 60vh;
-    background-color: cadetblue;
+.bottom button{
+    margin-top: 1em;
+    align-self: center;
+    font-size: 1.3em;
+    width: 10em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2em;
 }
 
-.bottom .left{
-    width: 35vw;
-    height: 60vh;
-    background-color: green;
+.bottom button:hover{
+    color: black;
+    background-color: orange;
 }
