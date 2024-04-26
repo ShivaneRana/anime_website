@@ -14,7 +14,7 @@ li{
     list-style: none;
 }
 
-a{
+.header .container_links a{
     text-decoration: none;
     color: white;
     background-color: black;
@@ -22,7 +22,7 @@ a{
     transition: background-color 0.35s,color 0.35s;
 }
 
-a:hover{
+.header .container_links a:hover{
     background-color: #e74c3c;
     color: black;
 }
@@ -273,4 +273,31 @@ body #forth{
 #forth .forth_rest .bottom button:hover{
     background-color: #e74c3c;
     color: black;
+}
+
+/*footer*/
+
+
+#footer{
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_footer{
+    font-size: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_footer img{
+    width: 1.5em;
+    height: 1.5em;
 }
