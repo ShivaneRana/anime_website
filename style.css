@@ -227,6 +227,7 @@ body #forth{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: green;
 }
 
 #forth .forth_rest{
@@ -277,27 +278,17 @@ body #forth{
 
 /*footer*/
 
-
-#footer{
-    display: flex;
-    width: 100vw;
+.footer{
     height: 5vh;
-    background-color: black;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: rebeccapurple;
 }
 
-.container_footer{
-    font-size: 1em;
-    color: white;
+.footer .footer_container{
+    height: 5vh;
+    width: 60vw;
+    background-color: blanchedalmond;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.container_footer img{
-    width: 1.5em;
-    height: 1.5em;
 }
