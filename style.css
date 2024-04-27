@@ -54,6 +54,12 @@ li{
     font-weight:bold;
     background-color: white;
     padding: 0.30em;
+    transition: background-color 0.35s,color 0.35s;
+}
+
+.logo:hover{
+    background-color: black;
+    color: white;
 }
 
 .container_links{
@@ -227,7 +233,6 @@ body #forth{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
 }
 
 #forth .forth_rest{
@@ -254,6 +259,7 @@ body #forth{
     align-items: center;
     justify-content: center;
     gap:1em;
+
 }
 
 #forth .forth_rest .bottom p{
@@ -269,6 +275,7 @@ body #forth{
     background-color: black;
     color: white;
     align-self: center;
+    transition: background-color 0.35s,color 0.35s;
 }
 
 #forth .forth_rest .bottom button:hover{
@@ -278,17 +285,26 @@ body #forth{
 
 /*footer*/
 
-.footer{
-    height: 5vh;
+#footer{
+    height: 6vh;
     width: 100vw;
-    display: flex;
+    background-color:#e74c3c;
+    display:flex;
     justify-content: center;
-    background-color: rebeccapurple;
+    align-items: center;
 }
 
-.footer .footer_container{
-    height: 5vh;
+.footer_container{
+    height: 6vh;
     width: 60vw;
-    background-color: blanchedalmond;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.footer_container img{
+    height: 3vh;
+    width:2vw;
+    object-fit: cover;
 }
