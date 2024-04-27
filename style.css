@@ -286,25 +286,23 @@ body #forth{
 /*footer*/
 
 #footer{
-    height: 6vh;
-    width: 100vw;
-    background-color:#e74c3c;
-    display:flex;
+    display: flex;
+    height: 60px;
+    background-color: #e74c3c;
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .footer_container{
-    height: 6vh;
-    width: 60vw;
+    display: flex;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
 
 .footer_container img{
-    height: 3vh;
-    width:2vw;
-    object-fit: cover;
+    width: 30px;
+    height: 30px;
 }
